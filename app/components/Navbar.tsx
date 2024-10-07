@@ -10,7 +10,7 @@ export function Navbar() {
       <Link href="/" className="flex items-center gap-2">
         <Image src={Logo} alt="Logo" className="size-10" />
         <h4 className="text-3xl font-semibold">
-          Cal<span className="text-blue-500">Marshal</span>
+          Cal<span className="text-blue-600">Edwin</span>
         </h4>
       </Link>
 

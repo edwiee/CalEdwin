@@ -12,11 +12,10 @@ export default function SuccessRoute() {
             <Check className="size-8 text-green-500" />
           </div>
           <h1 className="text-2xl font-semibold mt-4">
-            This event is scheduled
+            Event is scheduled
           </h1>
           <p className="text-sm text-muted-foreground text-center mt-1">
-            We emailed you a calendar invitation with all the details and the
-            video call link!
+           We’ve emailed you a calendar invitation with all the details and a video call link.
           </p>
         </CardContent>
         <CardFooter>

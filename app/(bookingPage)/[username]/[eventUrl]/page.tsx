@@ -130,12 +130,12 @@ export default async function BookingFormRoute({
 
               <input type="hidden" name="eventTypeId" value={data.id} />
               <div className="flex flex-col gap-y-2">
-                <Label>Your Name</Label>
-                <Input name="name" placeholder="Your Name" />
+                <Label>Name</Label>
+                <Input name="name" placeholder="your name" />
               </div>
               <div className="flex flex-col gap-y-2">
-                <Label>Your Email</Label>
-                <Input name="email" placeholder="johndoe@example.com" />
+                <Label>Email</Label>
+                <Input name="email" placeholder="edwin@example.com" />
               </div>
               <SubmitButton className="w-full mt-5" text="Book Meeting" />
             </form>

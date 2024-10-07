@@ -73,7 +73,7 @@ export default async function DashboardPage() {
                 Event Types
               </h1>
               <p className="text-muted-foreground ">
-                Create and manage your event types right here.
+              Create and efficiently manage your event types.
               </p>
             </div>
             <Button asChild>

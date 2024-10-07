@@ -60,7 +60,7 @@ export default async function DashboardLayout({
               <Link href="/" className="flex items-center gap-2">
                 <Image src={Logo} alt="Logo" className="size-8" />
                 <p className="text-xl font-bold">
-                  Cal<span className="text-primary">Marshal</span>
+                  Cal<span className="text-primary">Edwin</span>
                 </p>
               </Link>
             </div>

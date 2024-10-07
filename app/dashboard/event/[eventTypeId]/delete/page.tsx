@@ -19,7 +19,7 @@ export default function DeleteEventType({
     <div className="flex flex-1 items-center justify-center">
       <Card className="max-w-[450px] w-full">
         <CardHeader>
-          <CardTitle>Delete Event Type</CardTitle>
+          <CardTitle>Delete Event</CardTitle>
           <CardDescription>
             Are you sure you want to delete this event?
           </CardDescription>

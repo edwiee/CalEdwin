@@ -38,10 +38,10 @@ export default function OnboardingRoute() {
       <Card>
         <CardHeader>
           <CardTitle>
-            Welcome to Cal<span className="text-primary">Marshal</span>
+            Welcome to Cal<span className="text-primary">Edwin</span>
           </CardTitle>
           <CardDescription>
-            We need the following information to set up your profile!
+          Kindly provide the following information to complete your profile setup.
           </CardDescription>
         </CardHeader>
         <form id={form.id} onSubmit={form.onSubmit} action={action} noValidate>
@@ -52,7 +52,7 @@ export default function OnboardingRoute() {
                 name={fields.fullName.name}
                 defaultValue={fields.fullName.initialValue}
                 key={fields.fullName.key}
-                placeholder="Jan Marshal"
+                placeholder="Edwin V S"
               />
               <p className="text-red-500 text-sm">{fields.fullName.errors}</p>
             </div>
@@ -60,7 +60,7 @@ export default function OnboardingRoute() {
               <Label>Username</Label>
               <div className="flex rounded-md">
                 <span className="inline-flex items-center px-3 rounded-l-md border border-r-0 border-muted bg-muted text-sm text-muted-foreground">
-                  CalMarshal.com/
+                  caledwin.com/
                 </span>
                 <Input
                   placeholder="example-user-1"

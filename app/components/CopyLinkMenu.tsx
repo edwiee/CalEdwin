@@ -10,7 +10,7 @@ export function CopyLinkMenuItem({ meetingUrl }: { meetingUrl: string }) {
       await navigator.clipboard.writeText(meetingUrl);
       toast.success("URL has been copied");
     } catch (err) {
-      toast.error("Could not copy the url");
+      toast.error("Failed to copy the url");
     }
   };
 

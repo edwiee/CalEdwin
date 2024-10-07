@@ -18,7 +18,7 @@ export default function OnboardingrouteTwo() {
         <CardHeader>
           <CardTitle>You are almost Done!</CardTitle>
           <CardDescription>
-            We have to now connect your calendar to your account.
+          Next, you’ll need to connect your calendar to your account. This ensures seamless scheduling.
           </CardDescription>
           <Image
             src={VideoGif}

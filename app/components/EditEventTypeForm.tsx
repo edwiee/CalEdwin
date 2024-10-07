@@ -71,9 +71,9 @@ export function EditEventForm({
     <div className="w-full h-full flex flex-1 items-center justify-center">
       <Card>
         <CardHeader>
-          <CardTitle>Edit appointment type</CardTitle>
+          <CardTitle>Edit Appointment</CardTitle>
           <CardDescription>
-            Edit your appointment type that allows people to book you!
+          Edit your appointment to allow people to book with you seamlessly.
           </CardDescription>
         </CardHeader>
 
@@ -86,7 +86,7 @@ export function EditEventForm({
                 name={fields.title.name}
                 key={fields.title.key}
                 defaultValue={title}
-                placeholder="30 Minute meeting"
+                placeholder="your meeting title"
               />
               <p className="text-red-500 text-sm">{fields.title.errors}</p>
             </div>
@@ -94,7 +94,7 @@ export function EditEventForm({
               <Label>URL Slug</Label>
               <div className="flex rounded-md">
                 <span className="inline-flex items-center px-3 rounded-l-md border border-r-0 border-muted bg-muted text-sm text-muted-foreground">
-                  CalMarshal.com/
+                  caledwin.com/
                 </span>
                 <Input
                   name={fields.url.name}
@@ -113,7 +113,7 @@ export function EditEventForm({
                 name={fields.description.name}
                 key={fields.description.key}
                 defaultValue={description}
-                placeholder="Meet me in this meeting to meet me!"
+                placeholder="Join this meeting to connect with me."
               />
               <p className="text-red-500 text-sm">
                 {fields.description.errors}
@@ -193,7 +193,7 @@ export function EditEventForm({
             <Button variant="secondary" asChild>
               <Link href="/dashboard">Cancel</Link>
             </Button>
-            <SubmitButton text="Edit Event Type" />
+            <SubmitButton text="Edit Event" />
           </CardFooter>
         </form>
       </Card>

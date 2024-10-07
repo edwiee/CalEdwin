@@ -44,7 +44,7 @@ export default async function AvailabilityRoute() {
       <CardHeader>
         <CardTitle>Availability</CardTitle>
         <CardDescription>
-          In this section you can manage your availability!
+          Manage your availability here
         </CardDescription>
       </CardHeader>
       <form action={updateAvailabilityAction}>

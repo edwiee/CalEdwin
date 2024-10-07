@@ -2,38 +2,55 @@ import { SVGProps } from "react";
 
 export function Testimonial() {
   return (
-    <div className="relative max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-      <blockquote className="text-center lg:mx-auto lg:w-3/5">
-        <YouTube className="mx-auto w-20 h-auto sm:w-28 dark:invert" />
-
-        <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium">
+    <>
+      <div className="relative max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        {/* Blockquote */}
+        <blockquote className="text-center lg:mx-auto lg:w-3/5">
+          {/* <YouTube className="mx-auto w-20 h-auto sm:w-28 dark:invert" /> */}
           <svg
-            className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-muted sm:h-24 sm:w-24"
-            width={16}
-            height={13}
-            viewBox="0 0 16 13"
-            fill="none"
+            className="mx-auto w-12 h-auto sm:w-16 dark:invert"
             xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            >
             <path
-              d="M7.18079 9.25611C7.18079 10.0101 6.93759 10.6211 6.45119 11.0891C5.96479 11.5311 5.35039 11.7521 4.60799 11.7521C3.71199 11.7521 2.96958 11.4531 2.38078 10.8551C1.81758 10.2571 1.53598 9.39911 1.53598 8.28111C1.53598 7.08511 1.86878 5.91511 2.53438 4.77111C3.22559 3.60111 4.18559 2.67811 5.41439 2.00211L6.29759 3.36711C5.63199 3.83511 5.09439 4.35511 4.68479 4.92711C4.30079 5.49911 4.04479 6.16211 3.91679 6.91611C4.14719 6.81211 4.41599 6.76011 4.72319 6.76011C5.43999 6.76011 6.02879 6.99411 6.48959 7.46211C6.95039 7.93011 7.18079 8.52811 7.18079 9.25611ZM14.2464 9.25611C14.2464 10.0101 14.0032 10.6211 13.5168 11.0891C13.0304 11.5311 12.416 11.7521 11.6736 11.7521C10.7776 11.7521 10.0352 11.4531 9.44639 10.8551C8.88319 10.2571 8.60159 9.39911 8.60159 8.28111C8.60159 7.08511 8.93439 5.91511 9.59999 4.77111C10.2912 3.60111 11.2512 2.67811 12.48 2.00211L13.3632 3.36711C12.6976 3.83511 12.16 4.35511 11.7504 4.92711C11.3664 5.49911 11.1104 6.16211 10.9824 6.91611C11.2128 6.81211 11.4816 6.76011 11.7888 6.76011C12.5056 6.76011 13.0944 6.99411 13.5552 7.46211C14.016 7.93011 14.2464 8.52811 14.2464 9.25611Z"
-              fill="currentColor"
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.799 8.205 11.387.599.11.82-.26.82-.577 0-.285-.011-1.04-.016-2.04-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.73.083-.73 1.205.085 1.839 1.237 1.839 1.237 1.07 1.834 2.809 1.304 3.495.997.108-.775.419-1.304.762-1.605-2.665-.304-5.466-1.333-5.466-5.93 0-1.31.469-2.382 1.236-3.221-.124-.303-.536-1.524.117-3.176 0 0 1.008-.322 3.3 1.23a11.48 11.48 0 0 1 3.003-.404c1.02.005 2.046.138 3.003.404 2.291-1.552 3.298-1.23 3.298-1.23.654 1.653.242 2.874.118 3.176.769.839 1.236 1.911 1.236 3.221 0 4.609-2.803 5.624-5.475 5.92.431.371.815 1.102.815 2.222 0 1.605-.014 2.899-.014 3.293 0 .32.218.694.825.576C20.565 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"
             />
-          </svg>
-
-          <span className="relative z-10">
-            Wow CalMarshal is the best platform I have ever used. Definitley
-            recomment it to you guys, try it out!
-          </span>
-        </p>
-
-        <footer className="mt-6">
-          <p className="font-semibold">Jan Marshal</p>
-          <p className="text-sm text-muted-foreground">Programmer | YouTuber</p>
-        </footer>
-      </blockquote>
-    </div>
+            </svg>
+          <div className="">
+            <p className="relative text-xl sm:text-2xl md:text-3xl md:leading-normal font-medium ">
+              <svg
+                className="absolute top-0 start-0 transform -translate-x-8 -translate-y-8 size-16 text-muted sm:h-24 sm:w-24"
+                width={16}
+                height={13}
+                viewBox="0 0 16 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path
+                  d="M7.18079 9.25611C7.18079 10.0101 6.93759 10.6211 6.45119 11.0891C5.96479 11.5311 5.35039 11.7521 4.60799 11.7521C3.71199 11.7521 2.96958 11.4531 2.38078 10.8551C1.81758 10.2571 1.53598 9.39911 1.53598 8.28111C1.53598 7.08511 1.86878 5.91511 2.53438 4.77111C3.22559 3.60111 4.18559 2.67811 5.41439 2.00211L6.29759 3.36711C5.63199 3.83511 5.09439 4.35511 4.68479 4.92711C4.30079 5.49911 4.04479 6.16211 3.91679 6.91611C4.14719 6.81211 4.41599 6.76011 4.72319 6.76011C5.43999 6.76011 6.02879 6.99411 6.48959 7.46211C6.95039 7.93011 7.18079 8.52811 7.18079 9.25611ZM14.2464 9.25611C14.2464 10.0101 14.0032 10.6211 13.5168 11.0891C13.0304 11.5311 12.416 11.7521 11.6736 11.7521C10.7776 11.7521 10.0352 11.4531 9.44639 10.8551C8.88319 10.2571 8.60159 9.39911 8.60159 8.28111C8.60159 7.08511 8.93439 5.91511 9.59999 4.77111C10.2912 3.60111 11.2512 2.67811 12.48 2.00211L13.3632 3.36711C12.6976 3.83511 12.16 4.35511 11.7504 4.92711C11.3664 5.49911 11.1104 6.16211 10.9824 6.91611C11.2128 6.81211 11.4816 6.76011 11.7888 6.76011C12.5056 6.76011 13.0944 6.99411 13.5552 7.46211C14.016 7.93011 14.2464 8.52811 14.2464 9.25611Z"
+                  fill="currentColor"
+                />
+              </svg>
+              
+              <span className="relative z-10 ">
+              CalEdwin is by far the best platform I’ve ever used. I highly recommend giving it a try – you won’t be disappointed!
+              </span>
+            </p>
+          </div>
+          <footer className="mt-6">
+            <div className="font-semibold ">Edwin V S</div>
+            <div className="text-sm text-muted-foreground">
+              Full Stack Developer
+            </div>
+          </footer>
+        </blockquote>
+        {/* End Blockquote */}
+      </div>
+    </>
   );
 }
 

@@ -24,7 +24,7 @@ interface iAppProps {
 export const dashboardLinks: iAppProps[] = [
   {
     id: 0,
-    name: "Event Types",
+    name: "Events",
     href: "/dashboard",
     icon: HomeIcon,
   },

@@ -54,9 +54,9 @@ export default function NewEventRoute() {
     <div className="w-full h-full flex flex-1 items-center justify-center">
       <Card>
         <CardHeader>
-          <CardTitle>Add new appointment type</CardTitle>
+          <CardTitle>Add new appointment</CardTitle>
           <CardDescription>
-            Create new appointment type that allows people to book you!
+          Create a new appointment to enable others to book with you.
           </CardDescription>
         </CardHeader>
 
@@ -68,7 +68,7 @@ export default function NewEventRoute() {
                 name={fields.title.name}
                 key={fields.title.key}
                 defaultValue={fields.title.initialValue}
-                placeholder="30 Minute meeting"
+                placeholder="your meeting name"
               />
               <p className="text-red-500 text-sm">{fields.title.errors}</p>
             </div>
@@ -76,7 +76,7 @@ export default function NewEventRoute() {
               <Label>URL Slug</Label>
               <div className="flex rounded-md">
                 <span className="inline-flex items-center px-3 rounded-l-md border border-r-0 border-muted bg-muted text-sm text-muted-foreground">
-                  CalMarshal.com/
+                  caledwin.com/
                 </span>
                 <Input
                   name={fields.url.name}

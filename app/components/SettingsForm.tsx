@@ -1,5 +1,4 @@
 "use client";
-
 import {
   Card,
   CardContent,
@@ -52,7 +51,7 @@ export function SettingsForm({ email, fullName, profileImage }: iAppProps) {
     <Card>
       <CardHeader>
         <CardTitle>Settings</CardTitle>
-        <CardDescription>Manage your account settings!</CardDescription>
+        <CardDescription>Manage your account</CardDescription>
       </CardHeader>
 
       <form id={form.id} onSubmit={form.onSubmit} action={action} noValidate>
@@ -63,13 +62,13 @@ export function SettingsForm({ email, fullName, profileImage }: iAppProps) {
               name={fields.fullName.name}
               key={fields.fullName.key}
               defaultValue={fullName}
-              placeholder="Jan Marshal"
+              placeholder="Edwin V S"
             />
             <p className="text-red-500 text-sm">{fields.fullName.errors}</p>
           </div>
           <div className="flex flex-col gap-y-2">
             <Label>Email</Label>
-            <Input disabled defaultValue={email} placeholder="test@test.com" />
+            <Input disabled defaultValue={email} placeholder="test@gmail.com" />
           </div>
 
           <div className="grid gap-y-5">

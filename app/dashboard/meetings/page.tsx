@@ -49,8 +49,8 @@ export default async function MeetingsRoute() {
       {data.data.length < 1 ? (
         <EmptyState
           title="No meetings found"
-          description="You dont have any meetings yet."
-          buttonText="Create a new event type"
+          description="No meetings found. Please check your schedule or create a new meeting."
+          buttonText="Create new event"
           href="/dashboard/new"
         />
       ) : (
@@ -58,8 +58,7 @@ export default async function MeetingsRoute() {
           <CardHeader>
             <CardTitle>Bookings</CardTitle>
             <CardDescription>
-              See upcoming event which where booked with you and see the event
-              type link.
+            Review your upcoming booked events and explore the related event types. If no events are found, consider creating a new one or adjusting your filters.
             </CardDescription>
           </CardHeader>
           <CardContent>

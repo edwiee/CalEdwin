@@ -1,13 +1,13 @@
 import Image from "next/image";
 import { AuthModal } from "./AuthModal";
-import HeroImage from "@/public/better.png";
+import HeroImage from "@/public/Caledwin.png";
 
 export function Hero() {
   return (
     <section className="relative flex flex-col items-center justify-center py-12 lg:py-20">
       <div className="text-center">
         <span className="text-sm text-primary font-medium tracking-tight bg-primary/10 px-4 py-2 rounded-full">
-          Introducing CalMarshal 1.0
+          Introducing CalEdwin 1.0
         </span>
 
         <h1 className="mt-8 text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-medium ">
@@ -16,8 +16,7 @@ export function Hero() {
         </h1>
 
         <p className="max-w-xl mx-auto mt-4   lg:text-lg text-muted-foreground ">
-          Scheduling a meeting can be a pain. But we at CalMarshal make it easy
-          for your clients to schedule meetings with you.
+        Scheduling meetings can be challenging, but at CalEdwin, we make it effortless for your clients to book appointments with you.
         </p>
 
         <div className="mt-5 mb-12">

@@ -29,7 +29,7 @@ export function SubmitButton({ text, variant, className }: iAppProps) {
     <>
       {pending ? (
         <Button disabled variant="outline" className={cn("w-fit", className)}>
-          <Loader2 className="size-4 mr-2 animate-spin" /> Please Wait
+          <Loader2 className="size-4 mr-2 animate-spin" /> Please Wait..
         </Button>
       ) : (
         <Button
@@ -51,7 +51,7 @@ export function GoogleAuthButton() {
     <>
       {pending ? (
         <Button disabled variant="outline" className="w-full">
-          <Loader2 className="size-4 mr-2 animate-spin" /> Please wait
+          <Loader2 className="size-4 mr-2 animate-spin" /> Please wait..
         </Button>
       ) : (
         <Button variant="outline" className="w-full">
